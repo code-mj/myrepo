@@ -1,2 +1,21 @@
-CLIENT_ID=p_89RmOvsLuVZYQ8oOLUdDPywJZO074YG0Du0q7pSpI9L3wvY6paMe2W4G9x7ga-
-CLIENT_SECRET=F9lxsiYxemAxxhM2TJLkBrfgErVSGeO88JGJ6t_cpHB-ItcSAwJUlysESJCka7Gs3M_0f3m4k0I_yh7cVdOBXA
+# Jupyter Notebook
+**.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Python
+cython_debug/
+*__pycache__/
+.env
+
+# data
+*.zip
+!*beer_reviews.csv.zip
+
+# scratch
+*/scratch.ipynb
+
+# OSX
+**.DS_Store
